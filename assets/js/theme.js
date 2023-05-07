@@ -17,7 +17,7 @@ let setTheme = (theme) =>  {
   if (theme) {
     document.documentElement.setAttribute("data-theme", theme);
 
-    // Add class to tables.
+    /* Add class to tables.
     let tables = document.getElementsByTagName('table');
     for(let i = 0; i < tables.length; i++) {
       if (theme == "dark") {
@@ -25,7 +25,8 @@ let setTheme = (theme) =>  {
       } else {
         tables[i].classList.remove('table-dark');
       }
-    }
+    }*/
+    
   } else {
     document.documentElement.removeAttribute("data-theme");
   }

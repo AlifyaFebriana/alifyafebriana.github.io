@@ -4,6 +4,12 @@
 
 // Typography
 
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont,
+  'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+}
+
 p,
 h1,
 h2,
@@ -27,10 +33,12 @@ table {
   td,
   th {
     font-size: 1rem;
+    font-weight: 400;
+    color: var(--global-text-color);
   }
 
   th {
-    font-weight: bold;
+    font-weight: 500;
   }
 }
 
@@ -111,6 +119,7 @@ blockquote {
 // Profile
 
 .profile {
+  margin-left: 1rem;
   width: 100%;
 
   .address {
@@ -208,6 +217,7 @@ blockquote {
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    font-weight: 400;
 
     &:hover {
       color: var(--global-hover-color);
@@ -216,7 +226,7 @@ blockquote {
 
   .navbar-nav .nav-item.active>.nav-link {
     background-color: inherit;
-    font-weight: bolder;
+    font-weight: 400;
     color: var(--global-theme-color);
 
     &:hover {
@@ -318,7 +328,7 @@ blockquote {
   }
 
   .contact-note {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -417,6 +427,8 @@ footer.sticky-bottom {
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
+
+  font-weight: 550;
 }
 
 .post-list {
@@ -564,6 +576,7 @@ footer.sticky-bottom {
     margin-top: 2rem;
     margin-bottom: -2rem;
     text-align: right;
+    font-weight: 400;
   }
 
   ol.bibliography {
@@ -606,7 +619,7 @@ footer.sticky-bottom {
       }
 
       .title {
-        font-weight: bolder;
+        font-weight: 500;
       }
 
       .author {
@@ -913,6 +926,7 @@ nav[data-toggle="toc"] {
 
   .nav .nav>li>a {
     font-size: .75rem;
+    font-weight: 400;
   }
 
   .nav>li>a {
@@ -929,6 +943,7 @@ nav[data-toggle="toc"] {
     color: var(--global-theme-color);
     border-left-color: var(--global-theme-color);
     font-size: .75rem;
+    font-weight: 500;
 
     &:hover {
       color: var(--global-hover-color);
