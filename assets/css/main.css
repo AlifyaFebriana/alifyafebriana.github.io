@@ -7,11 +7,11 @@
  ******************************************************************************/
 :root {
   --global-bg-color: #ffffff;
-  --global-code-bg-color: rgba(181, 9, 172, 0.05);
+  --global-code-bg-color: rgba(187, 138, 82, 0.05);
   --global-text-color: #000000;
   --global-text-color-light: #828282;
-  --global-theme-color: #B509AC;
-  --global-hover-color: #B509AC;
+  --global-theme-color: #BB8A52;
+  --global-hover-color: #BB8A52;
   --global-hover-text-color: #ffffff;
   --global-footer-bg-color: #1C1C1D;
   --global-footer-text-color: #e8e8e8;
@@ -40,9 +40,8 @@ html[data-theme=dark] {
   --global-code-bg-color: #2c3237;
   --global-text-color: #e8e8e8;
   --global-text-color-light: #e8e8e8;
-  --global-theme-color: #2698BA;
-  --global-hover-color: #2698BA;
-  --global-hover-text-color: #ffffff;
+  --global-theme-color: #FFBA00;
+  --global-hover-color: #FFBA00;
   --global-footer-bg-color: #e8e8e8;
   --global-footer-text-color: #1C1C1D;
   --global-footer-link-color: #000000;
@@ -102,6 +101,11 @@ body.sticky-bottom-footer {
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+}
+
 p,
 h1,
 h2,
@@ -124,9 +128,11 @@ hr {
 table td,
 table th {
   font-size: 1rem;
+  font-weight: 400;
+  color: var(--global-text-color);
 }
 table th {
-  font-weight: bold;
+  font-weight: 500;
 }
 
 a,
@@ -192,6 +198,7 @@ blockquote {
 }
 
 .profile {
+  margin-left: 1rem;
   width: 100%;
 }
 .profile .address {
@@ -269,13 +276,14 @@ blockquote {
 }
 .navbar.navbar-light .navbar-nav .nav-item .nav-link {
   color: var(--global-text-color);
+  font-weight: 400;
 }
 .navbar.navbar-light .navbar-nav .nav-item .nav-link:hover {
   color: var(--global-hover-color);
 }
 .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
   background-color: inherit;
-  font-weight: bolder;
+  font-weight: 400;
   color: var(--global-theme-color);
 }
 .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link:hover {
@@ -349,7 +357,7 @@ blockquote {
   color: var(--global-theme-color);
 }
 .social .contact-note {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 footer.fixed-bottom {
@@ -425,6 +433,9 @@ footer.sticky-bottom {
   color: var(--global-text-color-light);
 }
 
+.post-title {
+  font-weight: 550;
+}
 .post-title mjx-container[jax=CHTML][display=true] {
   display: unset;
 }
@@ -535,6 +546,7 @@ footer.sticky-bottom {
   margin-top: 2rem;
   margin-bottom: -2rem;
   text-align: right;
+  font-weight: 400;
 }
 .publications ol.bibliography {
   list-style: none;
@@ -570,7 +582,7 @@ footer.sticky-bottom {
   border: 1px solid var(--global-theme-color);
 }
 .publications ol.bibliography li .title {
-  font-weight: bolder;
+  font-weight: 500;
 }
 .publications ol.bibliography li .author a {
   border-bottom: 1px dashed var(--global-theme-color);
@@ -822,6 +834,7 @@ nav[data-toggle=toc] {
 }
 nav[data-toggle=toc] .nav .nav > li > a {
   font-size: 0.75rem;
+  font-weight: 400;
 }
 nav[data-toggle=toc] .nav > li > a {
   color: var(--global-text-color);
@@ -835,6 +848,7 @@ nav[data-toggle=toc] .nav-link.active {
   color: var(--global-theme-color);
   border-left-color: var(--global-theme-color);
   font-size: 0.75rem;
+  font-weight: 500;
 }
 nav[data-toggle=toc] .nav-link.active:hover {
   color: var(--global-hover-color);
