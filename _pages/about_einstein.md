@@ -1,5 +1,9 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome to my digital garden. :herb: :hatching_chick:
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a final-year Masters student at [Yuan Ze University](https://www.yzu.edu.tw/) pursuing an MS in Electrical Engineering. My research interest is in deep learning and computer vision.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+At YZU, I had the opportunity to conduct research under the guidance of [Prof. Chih-Yang Lin](https://scholars.ncu.edu.tw/en/persons/chih-yang-lin) on a project coffee bean and I also join his Lab; The Computer Vision and Interactive Technology [(CVIT Lab)](https://sites.google.com/view/yzucvit/home) which is one of the Department of Mechanical Engineering Laboratories in National Central University (NCU).
+
+In 2022, I graduated with distinction from [Syiah Kuala University](https://usk.ac.id/) with a BEng (Bachelor of Engineering) in Computer Engineering. My [undergraduate honors thesis](https://ieeexplore.ieee.org/abstract/document/9865489) on provide a lightweight and understandable intelligent coffee bean automation sort accurately system that uses deep learning to assist farmers in sorting green bean arabica by variety using the benchmark deep learning models under the supervision of [Dr. Kahlil, S.T., M.Eng](https://comvis.mystrikingly.com/).
+
+I always interested to learn new things and develop my skills to participate in various events both inside and outside the university. 
