@@ -2,11 +2,21 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: a summary of my teaching experience.
 nav: true
-nav_order: 6
+nav_order: 4
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+#### **Syiah Kuala University (2019-2021)**
+Provided office hours, co-delivered lectures and recitations, designed and marked assignments for the undergraduate courses:
+ 
+- Physics Science 1 + Lab instructed by various lectures 
+- Physics Science 2 + Lab instructed by various lectures
+- Circuits and Electronics + Lab instructed by various lectures
+- Programming 1 + Lab instructed by Ir. Rahmad Dawood, S.Kom., M.Sc., IPM., ASEAN.Eng.
+- Programming 2 + Lab instructed by Dr. Khairun Saddami, S.T
 
-Organize your courses by years, topics, or universities, however you like!
+#### **Digital Talent Scholarship Program Fresh Graduate Academy (2021)**
+Led and designed tutorials, marked assignments, demonstrated lab sessions for the fresh graduate course:
+
+- [Big Data using Python](https://digitalent.kominfo.go.id/akademi/FGA) instructed by Ir. Rahmad Dawood, S.Kom., M.Sc., IPM., ASEAN.Eng.
