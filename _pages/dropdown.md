@@ -6,8 +6,8 @@ nav_order: 8
 dropdown: true
 children:
   - title: awards
-    permalink: /publications/
+    permalink: /awards/
   - title: divider
   - title: certificates
-    permalink: /projects/
+    permalink: /certificates/
 ---
